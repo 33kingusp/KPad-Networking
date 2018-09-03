@@ -4,6 +4,8 @@ using UnityEngine;
 
 namespace KPad.Networking
 {
+    [AddComponentMenu("KPad/Networking/NetworkDiscovery")]
+    [DisallowMultipleComponent]
     public class NetworkDiscovery : UnityEngine.Networking.NetworkDiscovery
     {
         

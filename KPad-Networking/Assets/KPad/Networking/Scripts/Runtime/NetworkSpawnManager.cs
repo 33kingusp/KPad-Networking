@@ -4,6 +4,8 @@ using UnityEngine;
 
 namespace KPad.Networking
 {
+    [AddComponentMenu("KPad/Networking/NetworkSpawnManager")]
+    [DisallowMultipleComponent]
     public class NetworkSpawnManager : MonoBehaviour
     {
         [SerializeField] private List<GameObject> spawnObjects = new List<GameObject>();
